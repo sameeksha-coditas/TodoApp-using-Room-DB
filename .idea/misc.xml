@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/drawable/android.xml" value="0.1" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/drawable/corner.xml" value="0.1" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/drawable/custom_button_back.xml" value="0.1" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/drawable/rules.xml" value="0.1" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/font/lato_bold.xml" value="0.1527777777777778" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/layout-v21/activity_add_edit_note.xml" value="0.1796875" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/layout-v21/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/layout-v21/note_rv_item.xml" value="0.1796875" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/layout/activity_add_edit_note.xml" value="0.1796875" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Study Material/Android projects/NotesApplication/app/src/main/res/layout/note_rv_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/drawable/custom_button_back.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/drawable/ic_add.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/layout-v21/activity_add_edit_note.xml" value="0.1" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/layout-v21/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/layout/activity_add_edit_note.xml" value="0.1796875" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/layout/activity_main.xml" value="0.4025670945157526" />
+        <entry key="..\:/Users/coditas/AndroidStudioProjects/NotesApplication/app/src/main/res/layout/note_rv_item.xml" value="0.4466666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fab_square" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorOnBackground">@color/blue</item>
+        <item name="color">@color/blue</item>
+    </style>
+
+
+</resources>
