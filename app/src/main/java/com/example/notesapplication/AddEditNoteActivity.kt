@@ -20,6 +20,7 @@ class AddEditNoteActivity : AppCompatActivity() {
     @SuppressLint("SimpleDateFormat")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Logger.logInfo("Inside EditActivity onCreate()")
         binding = ActivityAddEditNoteBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
@@ -65,5 +66,35 @@ class AddEditNoteActivity : AppCompatActivity() {
             startActivity(Intent(applicationContext, MainActivity::class.java))
 
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Logger.logInfo("Inside EditActivity onStart()")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Logger.logInfo("Inside EditActivity onResume()")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Logger.logInfo("Inside EditActivity onPause()")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Logger.logInfo("Inside EditActivity onStop()")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Logger.logInfo("Inside EditActivity onRestart()")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Logger.logInfo("Inside EditActivity onDestroy()")
     }
 }

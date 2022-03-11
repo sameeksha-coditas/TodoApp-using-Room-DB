@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Logger.logInfo("Inside onCreate")
+        Logger.logInfo("Inside MainActivity onCreate()")
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
@@ -34,9 +34,9 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
         )[NoteViewModal::class.java]
 
         viewModal.allNotes.observe(this) { list ->
+                Logger.logInfo("Inside observe method in MainActivity")
             list?.let {
                 notesRVAdapter.updateList(it) //this will add data to our NoteRVAdapter list which we have created in the NoteRVAdapter class
-                Logger.logInfo("Inside observe method")
             }
         }  //calling observe method to observe the changes in this livedata
         binding.idFABAddNote.setOnClickListener {
@@ -44,6 +44,36 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
             startActivity(intent)
         }
 
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Logger.logInfo("Inside MainActivity onDestroy()")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Logger.logInfo("Inside MainActivity onPause()")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Logger.logInfo("Inside MainActivity onResume()")
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Logger.logInfo("Inside MainActivity onStart()")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Logger.logInfo("Inside MainActivity onStop()")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Logger.logInfo("Inside MainActivity onRestart()")
     }
 
 
