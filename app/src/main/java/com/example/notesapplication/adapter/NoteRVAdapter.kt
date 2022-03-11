@@ -43,6 +43,11 @@ class NoteRVAdapter(
         holder.itemView.setOnClickListener {
             noteClickInterface.onNoteClick(allNotes[position])
         }
+
+//        fun returnPos():Int{
+//            return position
+//        }
+
     }
 
     override fun getItemCount(): Int {
@@ -55,6 +60,7 @@ class NoteRVAdapter(
         allNotes.addAll(newList)
         notifyDataSetChanged()      //to notify the adapter
        // notifyItemChanged()
+        Logger.logInfo("Inside updateList()")
     }
 }
 
