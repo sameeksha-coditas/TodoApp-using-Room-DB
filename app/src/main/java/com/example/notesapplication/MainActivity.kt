@@ -23,10 +23,11 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-        binding.idRVNotes.layoutManager = LinearLayoutManager(this)
+       // binding.idRVNotes.layoutManager = LinearLayoutManager(this)
 
         val notesRVAdapter = NoteRVAdapter(this, this)//initialising NoteRVAdapter class
-        binding.idRVNotes.adapter = notesRVAdapter
+       // binding.idRVNotes.adapter = notesRVAdapter
+        binding.viewPager.adapter=notesRVAdapter
 
         viewModal = ViewModelProvider(
             this,
